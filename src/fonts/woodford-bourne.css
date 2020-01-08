@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Woodford-Bourne';
+  font-style: normal;
+  font-weight: 400;
+  src: url('woodfordbourne-regular.woff2') format('woff2'),
+    url('woodfordbourne-regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Woodford-Bourne';
+  font-style: normal;
+  font-weight: 200;
+  src: url('woodfordbourne-thin.woff2') format('woff2'),
+    url('woodfordbourne-thin.woff') format('woff');
+}
+@font-face {
+  font-family: 'Woodford-Bourne';
+  font-style: normal;
+  font-weight: 800;
+  src: url('woodfordbourne-bold.woff2') format('woff2'),
+    url('woodfordbourne-bold.woff') format('woff');
+}
