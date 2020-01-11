@@ -29,6 +29,9 @@ const StyledBG = styled.div`
   background-position: center;
   width: 100%;
   height: 50vh;
+  @media ${props => props.theme.mediaQueries.large} {
+    background-size: cover;
+  }
 `
 
 const ServicesWrapper = styled.div`

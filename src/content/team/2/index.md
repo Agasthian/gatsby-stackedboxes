@@ -1,6 +1,6 @@
 ---
-name: 'Daniel'
-designation: 'Creative Director'
-image: '2.jpg'
-facebook: '#'
+name: "Ruben Kumar"
+designation: "Architect"
+image: "2.jpg"
+facebook: "#"
 ---

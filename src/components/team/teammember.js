@@ -8,13 +8,21 @@ const Image = styled(Img)`
 `
 const ImageItem = styled.div`
   display: flex;
+  flex-direction: column;
 `
 const Text = styled.h3`
   font-size: 1.6rem;
   font-weight: 800;
   text-transform: uppercase;
   color: var(--primary-blue);
-  margin-bottom: 1rem;
+  margin-bottom: 0;
+`
+const Desgnation = styled.h4`
+  font-size: 1.4rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: var(--primary-blue);
+  margin-top: 0.5rem;
 `
 const MemberWrapper = styled.div`
   display: block;
@@ -23,13 +31,14 @@ const MemberWrapper = styled.div`
 `
 
 const TeamMember = ({ team }) => {
-  const { name, image } = team.frontmatter
+  const { name, image, designation } = team.frontmatter
   return (
     <>
       <MemberWrapper>
         <Image fluid={image.childImageSharp.fluid} />
         <ImageItem>
           <Text>{name}</Text>
+          <Desgnation>{designation}</Desgnation>
         </ImageItem>
       </MemberWrapper>
     </>

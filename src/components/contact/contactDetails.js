@@ -17,14 +17,9 @@ const Contactdetails = () => {
     <>
       <SubHeading>Contact</SubHeading>
       <Heading>Let’s start new project.</Heading>
+      <p>Tell us about your dream, let's make it a reality.</p>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro beatae
-        numquam maiores doloribus suscipit animi iure consequuntur? Ullam soluta
-        tenetur accusantium possimus earum quisquam nobis nesciunt odit, sit
-        animi? Nisi!
-      </p>
-      <p>
-        <StyledIcon icon={faEnvelopeOpen} /> jp@stackedboxes.in
+        <StyledIcon icon={faEnvelopeOpen} /> stackedboxes@stackedboxes.in
         <StyledIcon icon={faPhoneAlt} /> (+91) 78455 97449
       </p>
     </>

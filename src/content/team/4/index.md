@@ -1,6 +1,6 @@
 ---
-name: 'Mark'
-designation: 'Art Director'
-image: '4.jpg'
-facebook: '#'
+name: "Nirmal"
+designation: "Architect"
+image: "4.jpg"
+facebook: "#"
 ---

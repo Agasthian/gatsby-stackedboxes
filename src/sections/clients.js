@@ -25,16 +25,14 @@ const StyledBG = styled.div`
 
 const ClientWrapper = styled.div`
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-  padding: 0 47px;
+  margin-bottom: 6rem;
 `
 const ClientItem = styled.div`
-  display: flex;
-  position: relative;
-  align-items: center;
-  justify-content: center;
-  width: 25%;
-  min-height: 270px;
+  text-align: center;
+  flex: 0 1 25%;
+  padding: 7rem;
   border: 1px solid rgba(0, 0, 0, 0.1);
 `
 

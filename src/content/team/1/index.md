@@ -1,6 +1,6 @@
 ---
-name: 'Sam'
-designation: 'Architect'
-image: '1.jpg'
-facebook: '#'
+name: "JayaPrakash N"
+designation: "Principal Architect"
+image: "JP.jpg"
+facebook: "#"
 ---
