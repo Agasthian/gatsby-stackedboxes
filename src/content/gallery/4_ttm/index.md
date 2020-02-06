@@ -1,6 +1,6 @@
 ---
-title: 'Residence'
-link: '/gallery-ttm'
-image: 'ttm.jpg'
-location: 'Chennai'
+title: "TTM"
+link: "/gallery-ttm"
+image: "3.jpeg"
+location: "Kerala"
 ---

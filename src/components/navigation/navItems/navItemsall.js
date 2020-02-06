@@ -11,7 +11,7 @@ const StyledNav = styled.nav`
   flex: 1;
 `
 
-const LINKS = ["Project", "Gallery", "About Us", "Contact"]
+const LINKS = ["Home", "Project", "Gallery", "About Us", "Contact"]
 
 const NavItems = ({ mobile, clicked }) => {
   //Animation

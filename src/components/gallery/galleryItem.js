@@ -9,7 +9,7 @@ const Image = styled(Img)`
 
 const Title = styled.h3`
   font-family: inherit;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   margin-bottom: 0;
   font-weight: 800;
   text-transform: uppercase;

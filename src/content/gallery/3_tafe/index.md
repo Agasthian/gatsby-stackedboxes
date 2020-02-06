@@ -1,6 +1,6 @@
 ---
-title: 'TAFE'
-link: '/gallery-tafe'
-image: 'tafe.jpg'
-location: 'Chennai'
+title: "TAFE"
+link: "/gallery-tafe"
+image: "6.jpeg"
+location: "Chennai"
 ---

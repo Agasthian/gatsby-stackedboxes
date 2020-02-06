@@ -1,6 +1,6 @@
 ---
-name: 'Gopinath B'
-designation: 'Architect'
-image: '3.jpg'
-facebook: '#'
+name: "Gopinath B"
+designation: "Architect"
+image: "Gopi.jpg"
+facebook: "#"
 ---

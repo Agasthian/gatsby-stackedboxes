@@ -1,6 +1,6 @@
 ---
 name: "Nirmal"
 designation: "Architect"
-image: "4.jpg"
+image: "Nirmalraj.jpg"
 facebook: "#"
 ---
