@@ -1,6 +1,6 @@
 ---
 title: "Sports Facility center"
-link: "gallery-um"
+link: "gallery-sfc"
 image: "1.jpeg"
 location: "Vijayawada"
 ---

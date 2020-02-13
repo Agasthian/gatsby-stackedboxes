@@ -67,6 +67,58 @@ const images = [
     original: `${PREFIX_URL}12.jpeg`,
     thumbnail: `${PREFIX_URL}12.jpeg`,
   },
+  {
+    original: `${PREFIX_URL}13.jpeg`,
+    thumbnail: `${PREFIX_URL}13.jpeg`,
+  },
+  {
+    original: `${PREFIX_URL}14.jpeg`,
+    thumbnail: `${PREFIX_URL}14.jpeg`,
+  },
+  {
+    original: `${PREFIX_URL}15.jpeg`,
+    thumbnail: `${PREFIX_URL}15.jpeg`,
+  },
+  {
+    original: `${PREFIX_URL}16.jpeg`,
+    thumbnail: `${PREFIX_URL}16.jpeg`,
+  },
+  {
+    original: `${PREFIX_URL}17.jpeg`,
+    thumbnail: `${PREFIX_URL}17.jpeg`,
+  },
+  {
+    original: `${PREFIX_URL}18.jpeg`,
+    thumbnail: `${PREFIX_URL}18.jpeg`,
+  },
+  {
+    original: `${PREFIX_URL}19.jpeg`,
+    thumbnail: `${PREFIX_URL}19.jpeg`,
+  },
+  {
+    original: `${PREFIX_URL}20.jpeg`,
+    thumbnail: `${PREFIX_URL}20.jpeg`,
+  },
+  {
+    original: `${PREFIX_URL}21.jpeg`,
+    thumbnail: `${PREFIX_URL}21.jpeg`,
+  },
+  {
+    original: `${PREFIX_URL}22.jpeg`,
+    thumbnail: `${PREFIX_URL}22.jpeg`,
+  },
+  {
+    original: `${PREFIX_URL}23.jpeg`,
+    thumbnail: `${PREFIX_URL}23.jpeg`,
+  },
+  {
+    original: `${PREFIX_URL}24.jpeg`,
+    thumbnail: `${PREFIX_URL}24.jpeg`,
+  },
+  {
+    original: `${PREFIX_URL}25.jpeg`,
+    thumbnail: `${PREFIX_URL}25.jpeg`,
+  },
 ]
 
 const Ttm = () => {

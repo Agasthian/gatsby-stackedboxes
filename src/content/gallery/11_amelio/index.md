@@ -1,6 +1,6 @@
 ---
-title: "Amelio PlaySchool"
-link: "gallery-um"
+title: "PlaySchool"
+link: "gallery-ps"
 image: "5.jpg"
 location: "Chennai"
 ---

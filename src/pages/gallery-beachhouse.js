@@ -17,7 +17,7 @@ const StyledIcon = styled(FontAwesomeIcon)`
   margin-right: 2rem;
 `
 const PREFIX_URL =
-  "https://civilbox.in/wp-content/uploads/2019/12/gallery/tafe/"
+  "https://civilbox.in/wp-content/uploads/2019/12/gallery/beachhouse/"
 
 const images = [
   {
@@ -32,25 +32,9 @@ const images = [
     original: `${PREFIX_URL}3.jpeg`,
     thumbnail: `${PREFIX_URL}3.jpeg`,
   },
-  {
-    original: `${PREFIX_URL}4.jpeg`,
-    thumbnail: `${PREFIX_URL}4.jpeg`,
-  },
-  {
-    original: `${PREFIX_URL}6.jpeg`,
-    thumbnail: `${PREFIX_URL}6.jpeg`,
-  },
-  {
-    original: `${PREFIX_URL}7.jpeg`,
-    thumbnail: `${PREFIX_URL}7.jpeg`,
-  },
-  {
-    original: `${PREFIX_URL}9-1.jpeg`,
-    thumbnail: `${PREFIX_URL}9-1.jpeg`,
-  },
 ]
 
-const Tafe = () => {
+const beachHouse = () => {
   return (
     <div>
       <Layout>
@@ -61,7 +45,7 @@ const Tafe = () => {
                 <Link to="/gallery">
                   <StyledIcon icon={faChevronCircleLeft} />
                 </Link>
-                Tafe
+                Beach House
               </GalleryHeading>
               <ImageGallery items={images} />
             </ContentWrapper>
@@ -72,4 +56,4 @@ const Tafe = () => {
   )
 }
 
-export default Tafe
+export default beachHouse

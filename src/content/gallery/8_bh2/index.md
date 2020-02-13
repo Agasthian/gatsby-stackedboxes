@@ -1,6 +1,6 @@
 ---
 title: "Beach House"
-link: "gallery-um"
+link: "gallery-beachhouse1"
 image: "6.jpeg"
 location: "ECR"
 ---

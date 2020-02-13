@@ -56,20 +56,20 @@ const images = [
     thumbnail: `${PREFIX_URL}9.jpeg`,
   },
   {
-    original: `${PREFIX_URL}10.jpeg`,
-    thumbnail: `${PREFIX_URL}10.jpeg`,
+    original: `${PREFIX_URL}10new.jpeg`,
+    thumbnail: `${PREFIX_URL}10new.jpeg`,
   },
   {
-    original: `${PREFIX_URL}11.jpeg`,
-    thumbnail: `${PREFIX_URL}11.jpeg`,
+    original: `${PREFIX_URL}11new.jpeg`,
+    thumbnail: `${PREFIX_URL}11new.jpeg`,
   },
   {
-    original: `${PREFIX_URL}12.jpeg`,
-    thumbnail: `${PREFIX_URL}12.jpeg`,
+    original: `${PREFIX_URL}12new.jpeg`,
+    thumbnail: `${PREFIX_URL}12new.jpeg`,
   },
   {
-    original: `${PREFIX_URL}13.jpeg`,
-    thumbnail: `${PREFIX_URL}13.jpeg`,
+    original: `${PREFIX_URL}13new.jpeg`,
+    thumbnail: `${PREFIX_URL}13new.jpeg`,
   },
   {
     original: `${PREFIX_URL}14.jpeg`,
@@ -84,8 +84,8 @@ const images = [
     thumbnail: `${PREFIX_URL}6.jpeg`,
   },
   {
-    original: `${PREFIX_URL}17.jpeg`,
-    thumbnail: `${PREFIX_URL}17.jpeg`,
+    original: `${PREFIX_URL}17new.jpeg`,
+    thumbnail: `${PREFIX_URL}17new.jpeg`,
   },
   {
     original: `${PREFIX_URL}18.jpeg`,
@@ -102,14 +102,6 @@ const images = [
   {
     original: `${PREFIX_URL}22.jpeg`,
     thumbnail: `${PREFIX_URL}22.jpeg`,
-  },
-  {
-    original: `${PREFIX_URL}23.jpeg`,
-    thumbnail: `${PREFIX_URL}23.jpeg`,
-  },
-  {
-    original: `${PREFIX_URL}24.jpeg`,
-    thumbnail: `${PREFIX_URL}24.jpeg`,
   },
 ]
 

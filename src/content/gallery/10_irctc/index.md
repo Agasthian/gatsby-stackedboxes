@@ -1,6 +1,6 @@
 ---
 title: "Indian Railways Perambur"
-link: "gallery-um"
+link: "gallery-ir"
 image: "5.jpg"
 location: "Chennai"
 ---

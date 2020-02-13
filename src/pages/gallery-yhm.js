@@ -20,20 +20,12 @@ const PREFIX_URL = "https://civilbox.in/wp-content/uploads/2019/12/gallery/yhm/"
 
 const images = [
   {
-    original: `${PREFIX_URL}1.jpeg`,
-    thumbnail: `${PREFIX_URL}1.jpeg`,
-  },
-  {
-    original: `${PREFIX_URL}2.jpeg`,
-    thumbnail: `${PREFIX_URL}2.jpeg`,
+    original: `${PREFIX_URL}1new.jpeg`,
+    thumbnail: `${PREFIX_URL}1new.jpeg`,
   },
   {
     original: `${PREFIX_URL}3.jpeg`,
     thumbnail: `${PREFIX_URL}3.jpeg`,
-  },
-  {
-    original: `${PREFIX_URL}4.jpeg`,
-    thumbnail: `${PREFIX_URL}4.jpeg`,
   },
   {
     original: `${PREFIX_URL}5.jpeg`,
@@ -44,64 +36,64 @@ const images = [
     thumbnail: `${PREFIX_URL}6.jpeg`,
   },
   {
-    original: `${PREFIX_URL}7.jpeg`,
-    thumbnail: `${PREFIX_URL}7.jpeg`,
+    original: `${PREFIX_URL}2new.jpeg`,
+    thumbnail: `${PREFIX_URL}2new.jpeg`,
   },
   {
-    original: `${PREFIX_URL}8.jpeg`,
-    thumbnail: `${PREFIX_URL}8.jpeg`,
+    original: `${PREFIX_URL}4.jpeg`,
+    thumbnail: `${PREFIX_URL}4.jpeg`,
+  },
+  {
+    original: `${PREFIX_URL}7.jpeg`,
+    thumbnail: `${PREFIX_URL}7.jpeg`,
   },
   {
     original: `${PREFIX_URL}9.jpeg`,
     thumbnail: `${PREFIX_URL}9.jpeg`,
   },
   {
-    original: `${PREFIX_URL}10.jpeg`,
-    thumbnail: `${PREFIX_URL}10.jpeg`,
-  },
-  {
     original: `${PREFIX_URL}11.jpeg`,
     thumbnail: `${PREFIX_URL}11.jpeg`,
   },
   {
-    original: `${PREFIX_URL}12.jpeg`,
-    thumbnail: `${PREFIX_URL}12.jpeg`,
+    original: `${PREFIX_URL}10new1.jpeg`,
+    thumbnail: `${PREFIX_URL}10new1.jpeg`,
   },
   {
-    original: `${PREFIX_URL}14.jpeg`,
-    thumbnail: `${PREFIX_URL}14.jpeg`,
+    original: `${PREFIX_URL}12new.jpeg`,
+    thumbnail: `${PREFIX_URL}12new.jpeg`,
   },
   {
-    original: `${PREFIX_URL}15.jpeg`,
-    thumbnail: `${PREFIX_URL}15.jpeg`,
+    original: `${PREFIX_URL}14new.jpeg`,
+    thumbnail: `${PREFIX_URL}14new.jpeg`,
   },
   {
-    original: `${PREFIX_URL}16.jpeg`,
-    thumbnail: `${PREFIX_URL}6.jpeg`,
+    original: `${PREFIX_URL}15new.jpeg`,
+    thumbnail: `${PREFIX_URL}15new.jpeg`,
+  },
+  {
+    original: `${PREFIX_URL}16new.jpeg`,
+    thumbnail: `${PREFIX_URL}16new.jpeg`,
   },
   {
     original: `${PREFIX_URL}17.jpeg`,
     thumbnail: `${PREFIX_URL}17.jpeg`,
   },
   {
-    original: `${PREFIX_URL}18.jpeg`,
-    thumbnail: `${PREFIX_URL}18.jpeg`,
-  },
-  {
     original: `${PREFIX_URL}19.jpeg`,
     thumbnail: `${PREFIX_URL}19.jpeg`,
   },
   {
-    original: `${PREFIX_URL}21.jpeg`,
-    thumbnail: `${PREFIX_URL}21.jpeg`,
+    original: `${PREFIX_URL}18new.jpeg`,
+    thumbnail: `${PREFIX_URL}18new.jpeg`,
   },
   {
-    original: `${PREFIX_URL}22.jpeg`,
-    thumbnail: `${PREFIX_URL}22.jpeg`,
+    original: `${PREFIX_URL}22new.jpeg`,
+    thumbnail: `${PREFIX_URL}22new.jpeg`,
   },
   {
-    original: `${PREFIX_URL}24.jpeg`,
-    thumbnail: `${PREFIX_URL}24.jpeg`,
+    original: `${PREFIX_URL}24new.jpeg`,
+    thumbnail: `${PREFIX_URL}24new.jpeg`,
   },
 ]
 

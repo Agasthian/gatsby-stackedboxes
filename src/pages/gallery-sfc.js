@@ -16,8 +16,7 @@ const StyledIcon = styled(FontAwesomeIcon)`
   font-size: 2.5rem;
   margin-right: 2rem;
 `
-const PREFIX_URL =
-  "https://civilbox.in/wp-content/uploads/2019/12/gallery/tafe/"
+const PREFIX_URL = "https://civilbox.in/wp-content/uploads/2019/12/gallery/sfc/"
 
 const images = [
   {
@@ -36,21 +35,9 @@ const images = [
     original: `${PREFIX_URL}4.jpeg`,
     thumbnail: `${PREFIX_URL}4.jpeg`,
   },
-  {
-    original: `${PREFIX_URL}6.jpeg`,
-    thumbnail: `${PREFIX_URL}6.jpeg`,
-  },
-  {
-    original: `${PREFIX_URL}7.jpeg`,
-    thumbnail: `${PREFIX_URL}7.jpeg`,
-  },
-  {
-    original: `${PREFIX_URL}9-1.jpeg`,
-    thumbnail: `${PREFIX_URL}9-1.jpeg`,
-  },
 ]
 
-const Tafe = () => {
+const Cumi = () => {
   return (
     <div>
       <Layout>
@@ -61,7 +48,7 @@ const Tafe = () => {
                 <Link to="/gallery">
                   <StyledIcon icon={faChevronCircleLeft} />
                 </Link>
-                Tafe
+                SPORTS FACILITY CENTER
               </GalleryHeading>
               <ImageGallery items={images} />
             </ContentWrapper>
@@ -72,4 +59,4 @@ const Tafe = () => {
   )
 }
 
-export default Tafe
+export default Cumi
