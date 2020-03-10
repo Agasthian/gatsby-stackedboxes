@@ -60,6 +60,7 @@ const Services = () => {
               frontmatter {
                 title
                 link
+                content
               }
               html
             }

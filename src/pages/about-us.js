@@ -44,6 +44,7 @@ const PhotoWrapper = styled.div`
 
 const Photo = styled.div`
   display: flex;
+  flex-wrap: wrap;
 `
 
 const StyledImg = styled(Img)`

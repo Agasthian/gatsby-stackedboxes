@@ -51,6 +51,7 @@ const Gallery = () => {
                 title
                 location
                 link
+                category
                 image {
                   childImageSharp {
                     fixed(width: 350, height: 240, quality: 100) {
@@ -74,6 +75,20 @@ const Gallery = () => {
             <BannerHeading>Get Inspired</BannerHeading>
           </Banner>
           <ProjectWrapper>
+            <div id="myBtnContainer">
+              <button className="btn active" onclick="filterSelection('all')">
+                Show all
+              </button>
+              <button className="btn" onclick="filterSelection('nature')">
+                Nature
+              </button>
+              <button className="btn" onclick="filterSelection('cars')">
+                Cars
+              </button>
+              <button className="btn" onclick="filterSelection('people')">
+                People
+              </button>
+            </div>
             <Container>
               <GalleryWrapper>
                 {items.edges.map(edge => {

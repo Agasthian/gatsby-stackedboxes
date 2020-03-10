@@ -30,7 +30,7 @@ const ServiceHeading = styled.h3`
   color: var(--primary-blue);
 `
 const ServiceText = styled.p`
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: var(--primary-light);
   word-spacing: 2px;
 `
@@ -40,13 +40,13 @@ const ServiceText = styled.p`
 // `
 
 const ServiceItems = ({ service }) => {
-  const { title, link } = service.frontmatter
+  const { title, link, content } = service.frontmatter
   return (
     <>
       <ServicesList>
         {/* <Image fluid={image.childImageSharp.fluid} /> */}
         <ServiceHeading>{title}</ServiceHeading>
-        <ServiceText dangerouslySetInnerHTML={{ __html: service.html }} />
+        <ServiceText>{content}</ServiceText>
         <StyledLink to={link}>Read More</StyledLink>
       </ServicesList>
     </>
