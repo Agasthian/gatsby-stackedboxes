@@ -11,7 +11,14 @@ const OurTeamWrapper = styled.div`
 `
 
 const ImageWrapper = styled.div`
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 25rem));
+  justify-content: space-evenly;
+  align-content: space-between;
+  -webkit-box-align: start;
+  align-items: start;
+  padding: 4rem 0px;
+  gap: 4rem 2rem;
 `
 
 const Team = () => {

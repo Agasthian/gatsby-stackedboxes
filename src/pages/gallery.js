@@ -75,7 +75,7 @@ const Gallery = () => {
             <BannerHeading>Get Inspired</BannerHeading>
           </Banner>
           <ProjectWrapper>
-            <div id="myBtnContainer">
+            {/* <div id="myBtnContainer">
               <button className="btn active" onclick="filterSelection('all')">
                 Show all
               </button>
@@ -88,7 +88,7 @@ const Gallery = () => {
               <button className="btn" onclick="filterSelection('people')">
                 People
               </button>
-            </div>
+            </div> */}
             <Container>
               <GalleryWrapper>
                 {items.edges.map(edge => {
