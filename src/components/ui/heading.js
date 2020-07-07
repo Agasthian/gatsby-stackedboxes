@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 
-const Title = styled.h1`
+const Title = styled.h2`
   font-family: inherit;
   font-size: 6rem;
   font-weight: 700;
@@ -10,7 +10,7 @@ const Title = styled.h1`
   margin: 0;
   color: var(--primary-blue);
 `
-const Title2 = styled.h1`
+const Title2 = styled.h2`
   font-family: inherit;
   font-size: 6rem;
   font-weight: 700;
@@ -19,7 +19,7 @@ const Title2 = styled.h1`
   margin: 0;
   color: var(--white);
 `
-const SubTitle = styled.h2`
+const SubTitle = styled.h3`
   font-family: "Woodford-Bourne", sans-serif;
   font-size: 1.6rem;
   font-weight: 600;
@@ -27,7 +27,7 @@ const SubTitle = styled.h2`
   text-transform: uppercase;
   margin: 0;
 `
-const SubTitle2 = styled.h2`
+const SubTitle2 = styled.h3`
   font-family: "Woodford-Bourne", sans-serif;
   font-size: 1.6rem;
   font-weight: 600;

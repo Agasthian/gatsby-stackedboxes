@@ -9,7 +9,6 @@ const ServicesList = styled.div`
   padding: 30px;
   margin-top: 30px;
   height: 30rem;
-  font-size: 2rem;
   flex: 0 1 300px;
 
   @media ${props => props.theme.mediaQueries.large} {
@@ -19,6 +18,8 @@ const ServicesList = styled.div`
     flex: 0 1 230px;
   }
   @media ${props => props.theme.mediaQueries.smaller} {
+    padding: 20px;
+    height: 26rem;
     flex: 0 1 230px;
   }
 `

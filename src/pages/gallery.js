@@ -2,6 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import { useStaticQuery, graphql } from "gatsby"
 
+import Head from "../components/head"
 import GalleryItem from "../components/gallery/galleryItem"
 import Layout from "../components/layouts/layout"
 
@@ -68,14 +69,14 @@ const Gallery = () => {
   `)
 
   return (
-    <>
-      <Layout>
-        <Wrapper>
-          <Banner>
-            <BannerHeading>Get Inspired</BannerHeading>
-          </Banner>
-          <ProjectWrapper>
-            {/* <div id="myBtnContainer">
+    <Layout>
+      <Head title="Gallery" />
+      <Wrapper>
+        <Banner>
+          <BannerHeading>Get Inspired</BannerHeading>
+        </Banner>
+        <ProjectWrapper>
+          {/* <div id="myBtnContainer">
               <button className="btn active" onclick="filterSelection('all')">
                 Show all
               </button>
@@ -89,22 +90,21 @@ const Gallery = () => {
                 People
               </button>
             </div> */}
-            <Container>
-              <GalleryWrapper>
-                {items.edges.map(edge => {
-                  return (
-                    <GalleryItem
-                      key={edge.node.id}
-                      gallery={edge.node.childMarkdownRemark}
-                    />
-                  )
-                })}
-              </GalleryWrapper>
-            </Container>
-          </ProjectWrapper>
-        </Wrapper>
-      </Layout>
-    </>
+          <Container>
+            <GalleryWrapper>
+              {items.edges.map(edge => {
+                return (
+                  <GalleryItem
+                    key={edge.node.id}
+                    gallery={edge.node.childMarkdownRemark}
+                  />
+                )
+              })}
+            </GalleryWrapper>
+          </Container>
+        </ProjectWrapper>
+      </Wrapper>
+    </Layout>
   )
 }
 

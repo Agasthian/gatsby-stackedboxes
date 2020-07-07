@@ -1,10 +1,16 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 import styled from "styled-components"
 import Img from "gatsby-image"
 
 import Heading from "../components/ui/heading"
-import { Container, Wrapper, SecondaryHeading } from "../utils/utils"
+import {
+  Container,
+  Wrapper,
+  SecondaryHeading,
+  StyledLink,
+  CenterAlignLink,
+} from "../utils/utils"
 
 export const Section = styled.section`
   min-height: 100vh;
@@ -119,6 +125,9 @@ export const WorksContent = styled.div`
   flex: 1 0 40%;
   background-color: #fff;
   padding: 3rem;
+  @media ${props => props.theme.mediaQueries.larger} {
+    flex: 1 1 auto;
+  }
 `
 
 export const WorksPara = styled.p`
@@ -126,6 +135,9 @@ export const WorksPara = styled.p`
   font-weight: 300;
   font-size: 2.5rem;
   color: rgba(56, 60, 80, 0.6);
+  @media ${props => props.theme.mediaQueries.smaller} {
+    font-size:2rem;
+  }
 `
 
 const OurWorks = () => {
@@ -167,7 +179,7 @@ const OurWorks = () => {
           }
         }
       }
-      Work6: file(relativePath: { eq: "Work-6.jpg" }) {
+      Work6: file(relativePath: { eq: "Work-6.jpeg" }) {
         childImageSharp {
           fluid(maxWidth: 250, maxHeight: 250, quality: 100) {
             ...GatsbyImageSharpFluid_tracedSVG
@@ -187,76 +199,89 @@ const OurWorks = () => {
       <WorksWrapper>
         <WorkImages>
           <WorksItem1>
-            <OverlayWrapper>
-              <Image
-                fluid={data.Work1.childImageSharp.fluid}
-                alt="Stacked Boxes"
-              />
-              <OverlayContent>
-                <OverlayHeading>residence</OverlayHeading>
-                <OverlaySubTitle>South House</OverlaySubTitle>
-              </OverlayContent>
-            </OverlayWrapper>
+            <Link to="/gallery-ttm">
+              <OverlayWrapper>
+                <Image
+                  fluid={data.Work1.childImageSharp.fluid}
+                  alt="Stacked Boxes"
+                />
+                <OverlayContent>
+                  <OverlayHeading>residence</OverlayHeading>
+                  <OverlaySubTitle>South House</OverlaySubTitle>
+                </OverlayContent>
+              </OverlayWrapper>
+            </Link>
           </WorksItem1>
           <WorksItem2>
-            <OverlayWrapper>
-              <Image
-                fluid={data.Work2.childImageSharp.fluid}
-                alt="Stacked Boxes"
-              />
-              <OverlayContent>
-                <OverlayHeading>CUMI</OverlayHeading>
-                <OverlaySubTitle>Commercial</OverlaySubTitle>
-              </OverlayContent>
-            </OverlayWrapper>
+            <Link to="/gallery-cumi">
+              <OverlayWrapper>
+                <Image
+                  fluid={data.Work2.childImageSharp.fluid}
+                  alt="Stacked Boxes"
+                />
+                <OverlayContent>
+                  <OverlayHeading>CUMI</OverlayHeading>
+                  <OverlaySubTitle>Commercial</OverlaySubTitle>
+                </OverlayContent>
+              </OverlayWrapper>
+            </Link>
           </WorksItem2>
           <WorksItem3>
-            <OverlayWrapper>
-              <Image
-                fluid={data.Work3.childImageSharp.fluid}
-                alt="Stacked Boxes"
-              />
-              <OverlayContent>
-                <OverlayHeading>PYT</OverlayHeading>
-                <OverlaySubTitle>Office Space</OverlaySubTitle>
-              </OverlayContent>
-            </OverlayWrapper>
+            <Link to="/gallery-pyt">
+              <OverlayWrapper>
+                <Image
+                  fluid={data.Work3.childImageSharp.fluid}
+                  alt="Stacked Boxes"
+                />
+                <OverlayContent>
+                  <OverlayHeading>PYT</OverlayHeading>
+                  <OverlaySubTitle>Office Space</OverlaySubTitle>
+                </OverlayContent>
+              </OverlayWrapper>
+            </Link>
           </WorksItem3>
           <WorksItem4>
-            <OverlayWrapper>
-              <Image
-                fluid={data.Work4.childImageSharp.fluid}
-                alt="Stacked Boxes"
-              />
-              <OverlayContent>
-                <OverlayHeading>TAFE</OverlayHeading>
-                <OverlaySubTitle>Commercial</OverlaySubTitle>
-              </OverlayContent>
-            </OverlayWrapper>
+            <Link to="/gallery-ir">
+              <OverlayWrapper>
+                <Image
+                  fluid={data.Work4.childImageSharp.fluid}
+                  alt="Stacked Boxes"
+                />
+                <OverlayContent>
+                  <OverlayHeading>INDIAN RAILWAYS</OverlayHeading>
+                  <OverlaySubTitle>Commercial</OverlaySubTitle>
+                </OverlayContent>
+              </OverlayWrapper>
+            </Link>
           </WorksItem4>
           <WorksItem5>
-            <OverlayWrapper>
-              <Image
-                fluid={data.Work5.childImageSharp.fluid}
-                alt="Stacked Boxes"
-              />
-              <OverlayContent>
-                <OverlayHeading>Mordern</OverlayHeading>
-                <OverlaySubTitle>Villa</OverlaySubTitle>
-              </OverlayContent>
-            </OverlayWrapper>
+            <Link to="/gallery-prestige">
+              <OverlayWrapper>
+                <Image
+                  fluid={data.Work5.childImageSharp.fluid}
+                  alt="Stacked Boxes"
+                />
+                <OverlayContent>
+                  <OverlayHeading>Mordern</OverlayHeading>
+                  <OverlaySubTitle>Villa</OverlaySubTitle>
+                </OverlayContent>
+              </OverlayWrapper>
+            </Link>
           </WorksItem5>
           <WorksItem6>
-            <OverlayWrapper>
-              <Image
-                fluid={data.Work6.childImageSharp.fluid}
-                alt="Stacked Boxes"
-                imgStyle={{ objectPosition: "top" }}
-              />
-              <OverlayContent>
-                <OverlayHeading>PYT</OverlayHeading>
-              </OverlayContent>
-            </OverlayWrapper>
+            <Link to="/gallery-tafe">
+              <OverlayWrapper>
+                <Image
+                  fluid={data.Work6.childImageSharp.fluid}
+                  alt="Stacked Boxes"
+                  imgStyle={{ objectPosition: "top" }}
+                />
+                <OverlayContent>
+                  <OverlayHeading>Tafe</OverlayHeading>
+                  <OverlaySubTitle>Commercial</OverlaySubTitle>
+                </OverlayContent>
+              </OverlayWrapper>
+            </Link>
           </WorksItem6>
         </WorkImages>
         <WorksContent>
@@ -270,6 +295,9 @@ const OurWorks = () => {
             past year, we have been working towards changing the urban landscape
             and introduce new architectural ideologies in urban housing.
           </WorksPara>
+          <CenterAlignLink>
+            <StyledLink to="/about-us/">Read More </StyledLink>
+          </CenterAlignLink>
         </WorksContent>
       </WorksWrapper>
     </Section>

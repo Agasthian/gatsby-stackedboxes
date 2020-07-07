@@ -1,6 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 
+import Head from "../components/head"
 import Layout from "../components/layouts/layout"
 import Map from "../components/contact/map"
 import Form from "../components/contact/form"
@@ -38,28 +39,27 @@ const Padding = styled.div`
 
 const contact = () => {
   return (
-    <div>
-      <Layout>
-        <Wrapper>
-          <Banner>
-            <BannerHeading>Contact us</BannerHeading>
-          </Banner>
-        </Wrapper>
-        <ContactWrapper>
-          <ContactAddress>
-            <Padding>
-              <Contactdetails />
-            </Padding>
-          </ContactAddress>
-          <ContactForm>
-            <Padding>
-              <Form />
-            </Padding>
-          </ContactForm>
-        </ContactWrapper>
-        <Map />
-      </Layout>
-    </div>
+    <Layout>
+      <Head title="Contact Us" />
+      <Wrapper>
+        <Banner>
+          <BannerHeading>Contact us</BannerHeading>
+        </Banner>
+      </Wrapper>
+      <ContactWrapper>
+        <ContactAddress>
+          <Padding>
+            <Contactdetails />
+          </Padding>
+        </ContactAddress>
+        <ContactForm>
+          <Padding>
+            <Form />
+          </Padding>
+        </ContactForm>
+      </ContactWrapper>
+      <Map />
+    </Layout>
   )
 }
 

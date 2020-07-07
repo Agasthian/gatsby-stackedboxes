@@ -9,14 +9,23 @@ import Heading from "../components/ui/heading"
 import { Container, Wrapper } from "../utils/utils"
 
 const Section = styled.section`
-  min-height: 135vh;
+  min-height: 120vh;
   background-color: #eef1f2;
 
   @media ${props => props.theme.mediaQueries.small} {
-    min-height: 165vh;
+    min-height: 140vh;
   }
   @media ${props => props.theme.mediaQueries.smaller} {
-    min-height: 310vh;
+    min-height: 235vh;
+  }
+  @media ${props => props.theme.mediaQueries.smallest} {
+    min-height: 200rem;
+  }
+  @media ${props => props.theme.mediaQueries.micro} {
+    min-height: 315vh;
+  }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    min-height: 80vh;
   }
 `
 

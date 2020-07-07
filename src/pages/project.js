@@ -3,6 +3,7 @@ import styled from "styled-components"
 import Img from "gatsby-image"
 import { useStaticQuery, graphql } from "gatsby"
 
+import Head from "../components/head"
 import Layout from "../components/layouts/layout"
 
 import {
@@ -80,6 +81,7 @@ const Project = () => {
   return (
     <>
       <Layout>
+        <Head title="Projects" />
         <Wrapper>
           <Banner>
             <BannerHeading>Project Planning</BannerHeading>

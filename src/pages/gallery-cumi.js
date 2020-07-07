@@ -5,6 +5,7 @@ import ImageGallery from "react-image-gallery"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faChevronCircleLeft } from "@fortawesome/free-solid-svg-icons"
 
+import Head from "../components/head"
 import Layout from "../components/layouts/layout"
 import { Wrapper, Container, GalleryHeading } from "../utils/utils"
 
@@ -70,6 +71,7 @@ const Cumi = () => {
   return (
     <div>
       <Layout>
+        <Head title="CUMI" />
         <Container>
           <Wrapper>
             <ContentWrapper>

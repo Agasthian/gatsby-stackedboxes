@@ -11,7 +11,7 @@ import Client from "../sections/clients"
 const Index = () => {
   return (
     <Layout>
-      <Head />
+      <Head title="Home" />
       <HomeLanding />
       <OurWorks />
       <Services />

@@ -14,6 +14,13 @@ export const StyledLink = styled(Link)`
   padding-bottom: 3px;
   border-bottom: 2px solid var(--primary-blue);
 `
+//Center Align Content Link
+export const CenterAlignLink = styled.div`
+  justify-content: center;
+  display: flex;
+  width: 12rem;
+  margin: auto;
+`
 
 export const SubHeading = styled.h3`
   font-size: 1.6rem;
@@ -56,7 +63,7 @@ export const Container = styled.div`
 `
 
 export const Wrapper = styled.div`
-  padding: 6rem 0rem 0rem 0rem;
+  padding: 7rem 0rem 0rem 0rem;
   color: var(--text);
   display: flex;
   width: 100%;

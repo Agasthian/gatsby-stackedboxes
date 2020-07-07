@@ -15,13 +15,12 @@ const Section = styled.section`
 `
 
 const Content = styled.div`
-  margin-top: 20rem;
+  margin-top: 19rem;
   position: absolute;
   color: #fff;
   z-index: 1;
 `
 const MainHeading = styled(animated.h1)`
-  line-height: 2rem;
   font-size: 7rem;
   text-transform: uppercase;
   font-weight: 300;
@@ -62,8 +61,11 @@ const HomeLanding = () => {
         <Wrapper>
           <BGVideo />
           <Content>
-            <MainHeading style={MainHeadingSpring}>Stacked</MainHeading>
-            <MainHeading style={MainHeadingSpring}>Boxes</MainHeading>
+            <MainHeading style={MainHeadingSpring}>
+              Stacked
+              <br />
+              Boxes
+            </MainHeading>
             <SubHeading style={SubHeadingSpring}>
               A young architecture firm from Chennai
             </SubHeading>
