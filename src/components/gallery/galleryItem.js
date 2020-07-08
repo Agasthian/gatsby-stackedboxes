@@ -30,7 +30,7 @@ const GalleryItem = ({ gallery }) => {
       </Link>
       <Title>{title}</Title>
       <Text>{location}</Text>
-      <Text>{category}</Text>
+      {/* <Text>{category}</Text> */}
     </div>
   )
 }

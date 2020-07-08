@@ -17,7 +17,7 @@ const StyledIcon = styled(FontAwesomeIcon)`
   font-size: 2.5rem;
   margin-right: 2rem;
 `
-const PREFIX_URL = "https://civilbox.in/wp-content/uploads/2019/12/gallery/pyt/"
+const PREFIX_URL = "http://assetfoundation.in/wp-content/uploads/sb/pyt/"
 
 const images = [
   {
@@ -57,20 +57,20 @@ const images = [
     thumbnail: `${PREFIX_URL}9.jpeg`,
   },
   {
-    original: `${PREFIX_URL}10new.jpeg`,
-    thumbnail: `${PREFIX_URL}10new.jpeg`,
+    original: `${PREFIX_URL}10.jpeg`,
+    thumbnail: `${PREFIX_URL}10.jpeg`,
   },
   {
-    original: `${PREFIX_URL}11new.jpeg`,
-    thumbnail: `${PREFIX_URL}11new.jpeg`,
+    original: `${PREFIX_URL}11.jpeg`,
+    thumbnail: `${PREFIX_URL}11.jpeg`,
   },
   {
-    original: `${PREFIX_URL}12new.jpeg`,
-    thumbnail: `${PREFIX_URL}12new.jpeg`,
+    original: `${PREFIX_URL}12.jpeg`,
+    thumbnail: `${PREFIX_URL}12.jpeg`,
   },
   {
-    original: `${PREFIX_URL}13new.jpeg`,
-    thumbnail: `${PREFIX_URL}13new.jpeg`,
+    original: `${PREFIX_URL}13.jpeg`,
+    thumbnail: `${PREFIX_URL}13.jpeg`,
   },
   {
     original: `${PREFIX_URL}14.jpeg`,
@@ -85,8 +85,8 @@ const images = [
     thumbnail: `${PREFIX_URL}6.jpeg`,
   },
   {
-    original: `${PREFIX_URL}17new.jpeg`,
-    thumbnail: `${PREFIX_URL}17new.jpeg`,
+    original: `${PREFIX_URL}17.jpeg`,
+    thumbnail: `${PREFIX_URL}17.jpeg`,
   },
   {
     original: `${PREFIX_URL}18.jpeg`,

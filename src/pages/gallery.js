@@ -77,19 +77,19 @@ const Gallery = () => {
         </Banner>
         <ProjectWrapper>
           {/* <div id="myBtnContainer">
-              <button className="btn active" onclick="filterSelection('all')">
-                Show all
-              </button>
-              <button className="btn" onclick="filterSelection('nature')">
-                Nature
-              </button>
-              <button className="btn" onclick="filterSelection('cars')">
-                Cars
-              </button>
-              <button className="btn" onclick="filterSelection('people')">
-                People
-              </button>
-            </div> */}
+            <button className="btn active" onclick="filterSelection('all')">
+              Show all
+            </button>
+            <button className="btn" onclick="filterSelection('nature')">
+              Nature
+            </button>
+            <button className="btn" onclick="filterSelection('cars')">
+              Cars
+            </button>
+            <button className="btn" onclick="filterSelection('people')">
+              People
+            </button>
+          </div> */}
           <Container>
             <GalleryWrapper>
               {items.edges.map(edge => {

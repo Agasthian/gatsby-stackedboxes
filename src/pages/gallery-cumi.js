@@ -17,8 +17,7 @@ const StyledIcon = styled(FontAwesomeIcon)`
   font-size: 2.5rem;
   margin-right: 2rem;
 `
-const PREFIX_URL =
-  "https://civilbox.in/wp-content/uploads/2019/12/gallery/cumi/"
+const PREFIX_URL = "http://assetfoundation.in/wp-content/uploads/sb/cumi/"
 
 const images = [
   {

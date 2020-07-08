@@ -17,8 +17,7 @@ const StyledIcon = styled(FontAwesomeIcon)`
   font-size: 2.5rem;
   margin-right: 2rem;
 `
-const PREFIX_URL =
-  "https://civilbox.in/wp-content/uploads/2019/12/gallery/prestige/"
+const PREFIX_URL = "http://assetfoundation.in/wp-content/uploads/sb/prestige/"
 
 const images = [
   {
@@ -63,7 +62,7 @@ const Cumi = () => {
   return (
     <div>
       <Layout>
-      <Head title='Prestige Bella Vista Appartment'/>
+        <Head title="Prestige Bella Vista Appartment" />
         <Container>
           <Wrapper>
             <ContentWrapper>

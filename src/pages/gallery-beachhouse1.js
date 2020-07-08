@@ -18,7 +18,7 @@ const StyledIcon = styled(FontAwesomeIcon)`
   margin-right: 2rem;
 `
 const PREFIX_URL =
-  "https://civilbox.in/wp-content/uploads/2019/12/gallery/beachhouse1/"
+  "http://assetfoundation.in/wp-content/uploads/sb/beachhouse1/"
 
 const images = [
   {
