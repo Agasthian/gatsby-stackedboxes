@@ -69,8 +69,8 @@ const HomeLanding = () => {
             <SubHeading style={SubHeadingSpring}>
               A young architecture firm from Chennai
             </SubHeading>
-            <Link to="/contact">
-              <Button style={ButtonSpring}>Contact us</Button>
+            <Link to="/project">
+              <Button style={ButtonSpring}>View Projects</Button>
             </Link>
           </Content>
         </Wrapper>

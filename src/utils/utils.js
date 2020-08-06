@@ -18,8 +18,6 @@ export const StyledLink = styled(Link)`
 export const CenterAlignLink = styled.div`
   justify-content: center;
   display: flex;
-  width: 12rem;
-  margin: auto;
 `
 
 export const SubHeading = styled.h3`
