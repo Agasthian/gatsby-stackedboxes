@@ -27,14 +27,15 @@ const VideoOverlay = styled.div`
   top: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15));
-  display: none;
+  background: black;
+  opacity: 0.5;
+  z-index: 2;
 `
 
 const BGVideo = () => {
   return (
     <VideoWrapper>
-      <VideoOverlay></VideoOverlay>
+      <VideoOverlay />
       <StyledVideo width="900" loop autoPlay muted playsinline>
         <source src={BgVideo} type="video/mp4" />
       </StyledVideo>

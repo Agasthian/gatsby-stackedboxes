@@ -48,6 +48,7 @@ const FooteritemsAll = styled.div`
 
   @media ${props => props.theme.mediaQueries.small} {
     flex-direction: column;
+    height: 50vh;
   }
 `
 const FooterItem = styled.div`
@@ -61,16 +62,17 @@ const FooterTextWrapper = styled.div`
 const FooterText = styled.p`
   margin: 0.5rem 0rem;
   color: var(--primary-lighter);
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   line-height: 3rem;
+  font-family: "Woodford-Bourne";
 `
 const StyledLink = styled.a`
   cursor: pointer;
   color: #fff;
   margin-right: 5px;
-  margin-top: 8px;
-  width: 4rem;
-  height: 4rem;
+  margin-top: 6px;
+  width: 3rem;
+  height: 3rem;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -87,7 +89,7 @@ const StyledLink = styled.a`
 
 const StyledIcon = styled(FontAwesomeIcon)`
   color: var(--lighter);
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   transition: color 0.2s ease-out;
 
   ${StyledLink}:hover & {
@@ -127,7 +129,11 @@ const Heading = styled(SecondaryHeadingLight)`
 
 const FooterItemSocial = styled.div`
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  width: 11vw;
+  @media ${props => props.theme.mediaQueries.small} {
+    width: 30vw;
+  }
 `
 
 // Location Object passed as prop to Map Component
