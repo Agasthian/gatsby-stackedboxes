@@ -9,7 +9,7 @@ import Heading from "../components/ui/heading"
 import { Container, Wrapper } from "../utils/utils"
 
 const Section = styled.section`
-  min-height: 120vh;
+  min-height: 135vh;
   background-color: #eef1f2;
 
   @media ${props => props.theme.mediaQueries.small} {
@@ -33,7 +33,12 @@ const StyledBG = styled.div`
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
   margin: 0 auto;
-  background-image: url(${BgImage});
+  background-image: linear-gradient(
+      to bottom right,
+      rgba(28, 33, 28, 0.8),
+      rgba(252, 208, 107, 0.3)
+    ),
+    url(${BgImage});
   background-size: 100%;
   background-position: center;
   width: 100%;
@@ -84,7 +89,7 @@ const Services = () => {
       <StyledBG>
         <Container>
           <Wrapper>
-            <Heading title2="WHAT WE DO" subtitle2="Our" />
+            <Heading title2="WHAT WE DO" subtitle2="" />
             <ServicesWrapper>
               {items.edges.map(edge => {
                 return (

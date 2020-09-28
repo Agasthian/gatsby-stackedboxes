@@ -10,9 +10,14 @@ import { Wrapper, BannerHeading } from "../utils/utils"
 import BgImage from "../images/bgtxt/contactus.jpg"
 
 const Banner = styled.div`
-  background-image: url(${BgImage});
+  background-image: linear-gradient(
+      to bottom right,
+      rgba(28, 33, 28, 0.8),
+      rgba(252, 208, 107, 0.3)
+    ),
+    url(${BgImage});
   background-size: cover;
-  background-position-y: -12rem;
+  background-position: center;
   height: 50vh;
   width: 100%;
   display: flex;

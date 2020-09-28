@@ -10,6 +10,7 @@ const ServicesList = styled.div`
   margin-top: 30px;
   height: 30rem;
   flex: 0 1 300px;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
 
   @media ${props => props.theme.mediaQueries.large} {
     flex: 0 1 265px;

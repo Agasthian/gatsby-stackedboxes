@@ -34,10 +34,10 @@ const VideoOverlay = styled.div`
 const BGVideo = () => {
   return (
     <VideoWrapper>
+      <VideoOverlay></VideoOverlay>
       <StyledVideo width="900" loop autoPlay muted playsinline>
         <source src={BgVideo} type="video/mp4" />
       </StyledVideo>
-      <VideoOverlay />
     </VideoWrapper>
   )
 }

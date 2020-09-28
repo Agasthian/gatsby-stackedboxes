@@ -3,7 +3,6 @@ import GoogleMapReact from "google-map-react"
 import styled from "styled-components"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons"
-import "./map.styles.css"
 
 const MapWrapper = styled.div`
   width: 100%;

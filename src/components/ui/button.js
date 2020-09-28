@@ -1,17 +1,19 @@
 import React from "react"
 import styled from "styled-components"
 import { animated } from "react-spring"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faChevronCircleRight } from "@fortawesome/free-solid-svg-icons"
 
 const StyledButton = styled(animated.button)`
   outline: none;
   background: var(--primary);
-  color: var(--white);
+  color: var(--primary-blue);
   text-transform: uppercase;
   font-family: inherit;
   font-weight: 700;
   border: 1px transparent;
   border-radius: 10rem;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   letter-spacing: 1.5px;
   padding: 1.5rem 4rem;
   margin: 0rem;
@@ -39,7 +41,9 @@ const StyledButton = styled(animated.button)`
 `
 
 const Button = ({ children, ...rest }) => (
-  <StyledButton {...rest}>{children}</StyledButton>
+  <StyledButton {...rest}>
+    {children} <FontAwesomeIcon icon={faChevronCircleRight} />{" "}
+  </StyledButton>
 )
 
 export default Button

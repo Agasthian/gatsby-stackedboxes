@@ -5,7 +5,7 @@ import Head from "../components/head"
 import HomeLanding from "../sections/homeLanding"
 import OurWorks from "../sections/ourWorks"
 import Services from "../sections/services"
-import HomeFour from "../sections/homeFour"
+
 import Client from "../sections/clients"
 
 const Index = () => {
@@ -15,7 +15,7 @@ const Index = () => {
       <HomeLanding />
       <OurWorks />
       <Services />
-      <HomeFour />
+
       <Client />
     </Layout>
   )

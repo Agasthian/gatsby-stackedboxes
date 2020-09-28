@@ -16,7 +16,12 @@ const StyledBG = styled.div`
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
   margin: 0 auto;
-  background-image: url(${BgImage});
+  background-image: linear-gradient(
+      to bottom right,
+      rgba(28, 33, 28, 0.8),
+      rgba(252, 208, 107, 0.3)
+    ),
+    url(${BgImage});
   background-size: cover;
   background-position: center;
   width: 100%;

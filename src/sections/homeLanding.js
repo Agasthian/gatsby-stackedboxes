@@ -24,6 +24,7 @@ const MainHeading = styled(animated.h1)`
   font-size: 7rem;
   text-transform: uppercase;
   font-weight: 300;
+  margin-bottom: 0rem;
 `
 const SubHeading = styled(animated.h2)`
   font-weight: 600;
@@ -69,8 +70,8 @@ const HomeLanding = () => {
             <SubHeading style={SubHeadingSpring}>
               A young architecture firm from Chennai
             </SubHeading>
-            <Link to="/project">
-              <Button style={ButtonSpring}>View Projects</Button>
+            <Link to="/gallery">
+              <Button style={ButtonSpring}>View Projects </Button>
             </Link>
           </Content>
         </Wrapper>

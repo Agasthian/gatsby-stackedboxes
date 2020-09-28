@@ -11,7 +11,11 @@ import { Wrapper, Container, BannerHeading } from "../utils/utils"
 import BgImage from "../images/bgtxt/work-flow.jpg"
 
 const Banner = styled.div`
-  background-image: url(${BgImage});
+  background-image:linear-gradient(
+    to bottom right,
+    rgba(28, 33, 28, 0.8),
+    rgba(252, 208, 107, 0.3)
+  ), url(${BgImage});
   background-size: cover;
   background-position: center;
   height: 50vh;

@@ -12,7 +12,13 @@ export const StyledLink = styled(Link)`
   font-size: 1.5rem;
   margin-top: 3rem;
   padding-bottom: 3px;
-  border-bottom: 2px solid var(--primary-blue);
+  border-bottom: 3px solid var(--primary-blue);
+  transition: all 0.2s ease-out;
+
+  &:hover {
+    color: var(--primary);
+    border-bottom: 3px solid var(--primary);
+  }
 `
 //Center Align Content Link
 export const CenterAlignLink = styled.div`
@@ -39,6 +45,7 @@ export const Heading = styled.h4`
 export const SecondaryHeading = styled.h3`
   font-family: inherit;
   font-weight: 700;
+
   font-size: 4rem;
   color: var(--primary-blue);
   text-transform: uppercase;
