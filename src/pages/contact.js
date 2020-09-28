@@ -3,7 +3,6 @@ import styled from "styled-components"
 
 import Head from "../components/head"
 import Layout from "../components/layouts/layout"
-import Map from "../components/contact/map"
 import Form from "../components/contact/form"
 import Contactdetails from "../components/contact/contactDetails"
 
@@ -58,7 +57,6 @@ const contact = () => {
           </Padding>
         </ContactForm>
       </ContactWrapper>
-      <Map />
     </Layout>
   )
 }

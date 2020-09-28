@@ -42,7 +42,7 @@ body {
   width: 100%;
   height: 100%;
   overflow: visible;
-  --primary: ${props => props.theme.colors.main};
+  --primary: ${props => props.theme.colors.primary};
   --primary-dark: ${props => props.theme.colors.dark};
   --primary-blue:${props => props.theme.colors.blue};
   --primary-light: ${props => props.theme.colors.bluelight};

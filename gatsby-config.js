@@ -12,6 +12,8 @@ module.exports = {
     siteUrl: "https://www.stackedboxes.in/",
     social: {
       facebook: "StackedBoxes",
+      instagram: "StackedBoxes",
+      twitter: "StackedBoxes",
       email: "stackedboxes@stackedboxes.in",
     },
   },

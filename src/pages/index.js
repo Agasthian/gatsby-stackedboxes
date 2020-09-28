@@ -1,5 +1,6 @@
 import React from "react"
 
+
 import Layout from "../components/layouts/layout"
 import Head from "../components/head"
 import HomeLanding from "../sections/homeLanding"

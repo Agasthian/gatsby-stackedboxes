@@ -1,6 +1,6 @@
 const theme = {
   colors: {
-    main: "#FCD06B",
+    primary: "#FCD06B",
     dark: "#595C5B",
     blue: "#383c50",
     bluelight: "rgba(56, 60, 80, 0.6)",
