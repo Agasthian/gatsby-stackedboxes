@@ -1,7 +1,8 @@
 import styled from "styled-components"
 import { Link } from "gatsby"
 
-//Link
+
+//Link - Button Css
 export const StyledLink = styled(Link)`
   font-family: Woodford-Bourne;
   font-weight: 800;
@@ -81,13 +82,15 @@ export const BannerHeading = styled.h1`
   color: var(--primary-lighter);
   font-size: 4.5rem;
 `
+
 // Page Heading
 export const PageHeading = styled.h2`
   text-transform: uppercase;
   color: var(--primary-blue);
   font-size: 3rem;
 `
-//Gallery
+
+//Single Project Heading
 export const GalleryHeading = styled.h3`
   text-transform: uppercase;
   color: var(--primary-blue);

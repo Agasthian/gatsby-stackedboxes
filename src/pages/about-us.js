@@ -1,10 +1,9 @@
 import React from "react"
 import styled from "styled-components"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link} from "gatsby"
 import Img from "gatsby-image"
 
 import Head from "../components/head"
-import Layout from "../components/layouts/layout"
 import OurTeam from "../components/team/team"
 
 import {
@@ -20,7 +19,7 @@ const Banner = styled.div`
   background-image: linear-gradient(
       to bottom right,
       rgba(28, 33, 28, 0.8),
-      rgba(252, 208, 107, 0.3)
+      rgba(28, 33, 28, 0.2)
     ),
     url(${BgImage});
   background-size: cover;
@@ -86,7 +85,6 @@ const About = () => {
 
   return (
     <>
-      <Layout>
         <Head title="About Us" />
         <Wrapper>
           <Banner>
@@ -143,7 +141,6 @@ const About = () => {
             <OurTeam />
           </Container>
         </Wrapper>
-      </Layout>
     </>
   )
 }

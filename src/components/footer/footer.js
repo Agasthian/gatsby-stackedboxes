@@ -224,6 +224,7 @@ const Footer = () => {
                 </StyledLink>
               </FooterItemSocial>
             </FooterItem>
+            
           </FooteritemsAll>
         </FooterContent>
       </FooterWraper>

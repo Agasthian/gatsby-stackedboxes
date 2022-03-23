@@ -20,7 +20,7 @@ const Banner = styled.div`
   background-image: linear-gradient(
       to bottom right,
       rgba(28, 33, 28, 0.8),
-      rgba(252, 208, 107, 0.3)
+      rgba(28, 33, 28, 0.2)
     ),
     url(${BgImage});
   background-size: cover;

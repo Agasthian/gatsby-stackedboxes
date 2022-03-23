@@ -52,6 +52,7 @@ const Navbar = ({ notOnePageSection }) => {
       ? setisMobile(true)
       : setisMobile(false)
   }
+  
 
   // Event listener on resize, so when it change we check o remove desktop menu/mobile menu
   // Better than CSS media query because we dont keep both DOM nodes

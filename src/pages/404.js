@@ -3,7 +3,6 @@ import styled from "styled-components"
 import { Link } from "gatsby"
 
 import Head from "../components/head"
-import Layout from "../components/layouts/layout"
 import { Container, Wrapper } from "../utils/utils"
 import Heading from "../components/ui/heading"
 import NotFoundSVG from "../images/not_found.svg"
@@ -55,7 +54,7 @@ const Svg = styled.img`
 `
 
 const NotFoundPage = () => (
-  <Layout notOnePageSection>
+  <>
     <Head title="404" />
     <Container>
       <Wrapper style={{ marginTop: "7rem" }}>
@@ -67,7 +66,7 @@ const NotFoundPage = () => (
         <StyledLink to="/">Go home</StyledLink>
       </Wrapper>
     </Container>
-  </Layout>
+  </>
 )
 
 export default NotFoundPage

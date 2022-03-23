@@ -21,7 +21,7 @@ const Text = styled.p`
 `
 
 const GalleryItem = ({ gallery }) => {
-  const { title, location, link, image, category } = gallery.frontmatter
+  const { title, location, link, image } = gallery.frontmatter
 
   return (
     <div>

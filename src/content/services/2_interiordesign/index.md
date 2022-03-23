@@ -1,7 +1,8 @@
 ---
+order : 2
 title: "Interior Design"
 link: "/project"
-image: "paint-roller.gif"
+image: "02Interior.png"
 content: "Our wide range of interior portfolio includes corporate office spaces, commercial spaces.."
 ---
 

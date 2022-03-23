@@ -1,23 +1,8 @@
 import React from "react"
+import { Link } from "gatsby"
 import styled from "styled-components"
-import { animated } from "react-spring"
 
-import NavItems from "../navItems/navItemsall"
-
-const BackgroundWrapper = styled(animated.div)`
-  position: fixed;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  background: var(--background);
-  width: 100%;
-  max-width: 100vw;
-  min-height: 100vh;
-  min-height: calc(var(--vh, 1vh) * 100);
-  display: flex;
-  transition: background 0.2s ease-out;
-`
-
+//Styled components
 const Wrapper = styled.div`
   display: flex;
   position: relative;
@@ -28,13 +13,31 @@ const Wrapper = styled.div`
   padding: 2rem 1rem;
 `
 
+const StyledLink = styled(Link)`
+    font-family: inherit;
+    text-decoration: none;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: var(--text);
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-out;
+    letter-spacing:1px;
+
+    &:hover {
+        color: var(--primary);
+      }
+}`
+
+//Side drawer component
 const SideDrawer = ({ setMenuOpened, ...rest }) => {
   return (
-    <BackgroundWrapper {...rest}>
-      <Wrapper>
-        <NavItems mobile clicked={() => setMenuOpened(false)} />
-      </Wrapper>
-    </BackgroundWrapper>
+    <Wrapper {...rest}>        
+      <StyledLink mobile onClick={() => setMenuOpened(false)}  to={`/home`}> Home </StyledLink>
+      <StyledLink mobile onClick={() => setMenuOpened(false)}  to={`/projects`}> Projects </StyledLink>
+      <StyledLink mobile onClick={() => setMenuOpened(false)} to={`/about-us`}> About Us </StyledLink>
+      <StyledLink mobile onClick={() => setMenuOpened(false)} to={`/contact`}> Contact Us </StyledLink>
+    </Wrapper>
   )
 }
 

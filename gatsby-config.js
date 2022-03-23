@@ -4,6 +4,11 @@
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
 
+
+require('dotenv').config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   siteMetadata: {
     title: `Stacked Boxes`,
@@ -20,9 +25,22 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     "gatsby-plugin-styled-components",
+    `gatsby-plugin-image`,
     `gatsby-transformer-sharp`,
-    `gatsby-transformer-remark`,
     `gatsby-plugin-sharp`,
+    {
+      resolve:`gatsby-transformer-remark`,
+      // options:{
+      //   plugin:[
+      //     {
+      //       resolve:'gatsby-remark',
+      //       options:{
+      //         maxWidth:590,
+      //       }
+      //     }
+      //   ]
+      // }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -47,6 +65,15 @@ module.exports = {
             variants: [`300`, `400`],
           },
         ],
+      },
+    },
+    {
+      resolve: `gatsby-source-sanity`,
+      options: {
+        projectId: 'fy8kjy39',
+        dataset: 'production',
+        watchMode:true,
+        token: process.env.SANITY_TOKEN,
       },
     },
   ],

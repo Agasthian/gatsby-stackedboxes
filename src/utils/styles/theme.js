@@ -18,14 +18,14 @@ const theme = {
     },
   },
   mediaQueries: {
-    micro: `only screen and (max-width:20em)`,
-    smallest: `only screen and (max-width: 25em)`,
+    micro: `only screen and (max-width:20em)`,//320px
+    smallest: `only screen and (max-width: 25em)`,//400px
     smaller: "only screen and (max-width: 34.37em)", // 550px
-    small: "only screen and (max-width: 48em)", //768px
-    medium: "only screen and (max-width: 56.25em)", //900px
+    small: "only screen and (max-width: 48em)", //768px/16 = 48em
+    medium: "only screen and (max-width: 56.25em)", //900px/16= 56.25em
     large: "only screen and (max-width: 62.5em)", //1000px
-    larger: "only screen and (max-width: 80em)",
-    largest: "only screen and (max-width: 90em)",
+    larger: "only screen and (max-width: 80em)", //1280/16
+    largest: "only screen and (min-width: 90em)", //1440px /16 = 90em
   },
 }
 
