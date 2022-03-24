@@ -57,15 +57,13 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          {
-            family: `Neuton`,
-            variants: [`300`, `400`],
-          },
+          `Neuton\:300,400`,
         ],
-      },
+        display: 'swap'
+      }
     },
     {
       resolve: `gatsby-source-sanity`,

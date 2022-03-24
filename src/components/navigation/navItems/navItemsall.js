@@ -3,7 +3,6 @@ import { Link } from "gatsby"
 import styled from "styled-components"
 // import { animated, useTrail, config } from "react-spring"
 
-import NavItemSingle from "./navItemSingle"
 
 const StyledNav = styled.nav`
   display: flex;

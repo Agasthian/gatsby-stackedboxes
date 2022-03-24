@@ -33,12 +33,13 @@ const ProjectWrapper = styled.div`
   padding: 5rem 0 7rem 0;
 `
 
-const ProjectContainer = styled.div`
-    max-width: 160rem;
-    z-index: 2;
-    padding: 0 4rem;
-    margin: 0 auto;
-    width: 100%;`
+// const ProjectContainer = styled.div`
+//     max-width: 160rem;
+//     z-index: 2;
+//     padding: 0 4rem;
+//     margin: 0 auto;
+//     width: 100%;
+//     `
 
 export const query = graphql `
 query AllProjects($filterRegex: String) {
